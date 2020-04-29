@@ -20,53 +20,56 @@ export default class LOGINIBM extends Component{
     return (
           <ImageBackground source={bgImage} style={styles.backgroundContainer}>
             <View style={styles.TextWelcome} >
-                  <Text style= {styles.WelcomeText} >Bienvenido a </Text>
+                  <Text style= {styles.WelcomeText} >Registrate </Text>
             </View>
               <View style={styles.logoContainer}>
                   <Image source={Logo} style={styles.Logo} ></Image>
-                  <Text style={styles.logoText}> Aplicacion de monitoreo para ventiladores mecanicos</Text>
               </View>
            
             <View style={styles.inputContainer}>
-                  <Icon name={'ios-arrow-dropright'} size={28} color={'rgba(255,255,255,0.7)'}
-                      style={styles.inputIcon}
-                  />
                       <TextInput
                       style={styles.input}
-                          placeholder={'Nombre de usuario'}
+                          placeholder={'Nombres'}
                           placeholderTextColor={'rgba(255,255,255,0,7)'}
                           underlineColorAndroid='transparent'
                       />           
             </View>
-
             <View style={styles.inputContainer}>
-                <Icon name={'ios-arrow-dropright'} size={28} color={'rgba(255,255,255,0.7)'}
-                        style={styles.inputIcon}
-                    />
-
-                    <TextInput
-                        style={styles.input}
-                            placeholder={'Contraseña'}
-                            secureTextEntry={true}
-                            placeholderTextColor={'rgba(255,255,255,0,7)'}
-                            underlineColorAndroid='transparent'
-                        />
-                    <TouchableOpacity  style={styles.btnEye}>
-                          <Icon name={'ios-cloud'} size={26} color={'rgba(255,255,255,0.7)'} 
-                          />
-                    </TouchableOpacity>
+                      <TextInput
+                      style={styles.input}
+                          placeholder={'Apellidos'}
+                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          underlineColorAndroid='transparent'
+                      />           
             </View>
-            <View > 
-                   <Text style={styles.textforgot}>Olvidaste tu clave?</Text>
-
+            <View style={styles.inputContainer}>
+                      <TextInput
+                      style={styles.input}
+                          placeholder={'Cedula'}
+                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          underlineColorAndroid='transparent'
+                      />           
+            </View>
+            <View style={styles.inputContainer}>
+                      <TextInput
+                      style={styles.input}
+                          placeholder={'Correo Electronico'}
+                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          underlineColorAndroid='transparent'
+                      />           
+            </View>
+            <View style={styles.inputContainer}>
+                      <TextInput
+                      style={styles.input}
+                          placeholder={'Genero'}
+                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          underlineColorAndroid='transparent'
+                      />           
             </View>
                     <TouchableOpacity  style={styles.btnLogin}>
-                         <Text style={styles.text} > Entrar </Text>
+                         <Text style={styles.text} > Registrate </Text>
                     </TouchableOpacity>
 
-            <View style={styles.ContainerHighlighted}> 
-                    <Text style={styles.textRegister}>Crea una nueva cuenta</Text>
-            </View>
           </ImageBackground>
           
       
