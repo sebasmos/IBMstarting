@@ -30,7 +30,7 @@ export default class LOGINIBM extends Component{
                       <TextInput
                       style={styles.input}
                           placeholder={'Nombres'}
-                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          placeholderTextColor={'rgba(255,255,255,0.7)'}
                           underlineColorAndroid='transparent'
                       />           
             </View>
@@ -38,7 +38,7 @@ export default class LOGINIBM extends Component{
                       <TextInput
                       style={styles.input}
                           placeholder={'Apellidos'}
-                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          placeholderTextColor={'rgba(255,255,255,0.7)'}
                           underlineColorAndroid='transparent'
                       />           
             </View>
@@ -46,7 +46,7 @@ export default class LOGINIBM extends Component{
                       <TextInput
                       style={styles.input}
                           placeholder={'Cedula'}
-                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          placeholderTextColor={'rgba(255,255,255,0.7)'}
                           underlineColorAndroid='transparent'
                       />           
             </View>
@@ -54,7 +54,7 @@ export default class LOGINIBM extends Component{
                       <TextInput
                       style={styles.input}
                           placeholder={'Correo Electronico'}
-                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          placeholderTextColor={'rgba(255,255,255,0.7)'}
                           underlineColorAndroid='transparent'
                       />           
             </View>
@@ -62,7 +62,7 @@ export default class LOGINIBM extends Component{
                       <TextInput
                       style={styles.input}
                           placeholder={'Genero'}
-                          placeholderTextColor={'rgba(255,255,255,0,7)'}
+                          placeholderTextColor={'rgba(255,255,255,0.7)'}
                           underlineColorAndroid='transparent'
                       />           
             </View>
