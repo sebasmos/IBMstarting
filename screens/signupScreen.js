@@ -13,7 +13,7 @@ import Logo from './assets/LOGOFINAL.png'
 import Icon from 'react-native-vector-icons/Ionicons'
 
 const {width: WIDTH} = Dimensions.get('window')
-export default class LOGINIBM extends Component{
+export default class SignUp extends Component{
   render(){
     console.log('Esta es una prueba')
 
